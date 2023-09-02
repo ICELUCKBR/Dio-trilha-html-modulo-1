@@ -1,62 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+  </head>
+  <body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <p>
+      <strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os
+      tópicos que mais entendeu. Estes apenas são sugestões.
+    </p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li><a href="#structure">Como é uma estrutura básica de um HTML?</a></li>
+      <li>
+        <a href="#difference"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#links">Links de referências</a></li>
+    </ul>
+     <hr>
+
+    <h2 id="historia">História dos computadores</h2>
+    <p>
+      <strong></strong>Uma das maiores invenções que podemos ver até nos dias de
+      hoje é o computador, criado para ser um meio de comunicação militar,
+      contudo, sua necessidade se
+      <strong>mostrou muito mais ampla do que somente a guerra</strong>, a
+      criação dos pontos de redes unicas e a criação de redes compartilhadas
+      como a internet, nós possibilitou uma comunicação muito mais efetiva e
+      muito mais promissora tanto tecnologicamente quanto a comunicação global,
+      avançando para uma sociedade muito mais tecnologia e eficiente.
+      <u>
+        As primeiras maquinas desenvolvidas não dependiam de energia para
+        funcionar
+      </u>
+      e só mente a lógica matematica, como maquinas que conseguiam ler pontos
+      pontilhados e realizar calculos ou tocar musica em um piano,
+    </p>
+
+    <blockquote>
+      
+    </blockquote>
+
+    <a href="#inicio">voltar</a>
+ <hr>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>A definição de cliente é a maquina que solicita os dados, navega pela rede ou cria documentos, é a ponta final de um sistema que conversa com o servidor, 
+      ela realiza solicitações e aguarda uma resposta do servidor, como verificar arquivos, imagens ou acessar uma pagina WEB
+    </p>
+
+    <a href="#inicio">voltar</a>
+ <hr>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>
+      Servidores são computadores que armazenam informações, como, dados de clientes, jogos, imagens e uma infinidade de informações, <b>A função principal</b> de um servidor 
+      é de <strong>receber solicitações e enviar as respostas ao cliente</strong>, de modo que ele pode lidar com diversidades de informações simultâneas como recebimento demasiado de requisiçoes e 
+      ter uma demanda de respostas alta, dependendo do tipo de servidor que é projetado tanto fisicamente quanto em sua estrutura de software.
+    </p>
+
+      <h3>Algumas informações sobre servidores</h3>
+    <ul>
+      <li>Um servidor é basicamente um computador dedicado ao armazenamento de dados.</li>
+      <li>Um servidor pode ser tanto local quanto remoto</li>
+      <li>A inumeras formas de se construir um servidor</li>
+      <li>Garante a proteção e armazenagem de dados</li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <a href="#inicio">voltar</a>
+     <hr>
+    <h2 id="structure">Como é uma estrutura básica de um HTML?</h2>
+    <p>
+      Uma estrutura de básica de uma página consiste em uma sequencia de <strong>Tags</strong> tais como:
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <ol>
+        <li> <code>html</code> - É o inicio de uma estrutura básica de html, aonde é composto todo a marcação de códigos</li>
+        <li> <code>body</code>- É aonde fica todo o "corpo" do seu código aonde será visivel ao usúario</li>
+        <li> <code>h1 á h6</code> - São as formas de titulos como você vê escritos nesse site como podemos mostrar dessa forma: <ul>
+           <li><h1>h1</h1></li>
+           <li><h2>h2</h2></li>
+           <li><h3>h3</h3></li>
+           <li><h4>h4</h4></li>
+           <li><h5>h5</h5></li>
+        </ul></li>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <li><code>Footer</code>- é aonde fica o fim da página</li>
+      </ol>
+     
+    </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <a href="#inicio">voltar</a>
+ <hr>
+    <h2 id="difference">
+      Entendendo a diferença entre listas ordenadas e não ordenadas
+    </h2>
+    <p>
+     
+     <strong>O que são as listas ordenadas</strong> <br>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+     São listas que possuem numeração espefica,  como podemos definir graus de prioridade, passo a passo como nesse exemplo:
+     <ol>
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Tomar banho</li>
+     </ol>
+       <p>Esse tipo de lista </p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+       <strong>Listas não ordenadas</strong> <br>
+       As listas não ordenadas são listas que não tem a necessidade de serem numeradas ou tem um grau especifico de prioridade, são apenas listas como no exemplo a seguir:
+       <ul>
+        <li>Carros antigos</li>
+        <li>Limpeza de quarto</li>
+        <li>Paisagens belas</li>
+       </ul>
+       <p>Esse é um tipo de lista que não possui ordem, porém pode ter contexto dependendo do que se for colocar na lista.</p>
+
+    </p>
+
+    <a href="#inicio">voltar</a>
+     <hr>
+    <h2 id="links">Links de referências</h2>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+      <li><a href="http://dio.me" target="_blank">Portal DIO</a></li>
+      <li><a href="http://w3c.org" target="_blank">Poral W3C schools</a></li>
+      <li><a href="https://www.tecmundo.com.br/982-o-que-e-cliente-servidor-.htm" target="_blank" rel="noopener noreferrer"><i>Fonte:</i>TecMundo - oque é client e servidor</a></li>
+      <li><a
+        href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/"
+        target="_blank"
+        ><i> Fonte: </i>Toda Matéria - História e evolução dos computadores</a
+      ></li>
     </ul>
 
-</body>
+    <a href="#inicio">voltar</a>
+     <hr>
+  </body>
 </html>
